@@ -17,4 +17,5 @@
     // .finally(() => console.log('from finally'));
 
     console.log('from console.log'); // 1
+    
 })();

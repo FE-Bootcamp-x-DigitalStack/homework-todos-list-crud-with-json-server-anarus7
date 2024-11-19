@@ -1,0 +1,29 @@
+{
+    "todos": [
+      {
+        "id": "82d1",
+        "title": "Watch Intro to Fetch API",
+        "done": false
+      },
+      {
+        "id": "1c0e",
+        "title": "Submit RPS assignment",
+        "done": false
+      },
+      {
+        "id": "118f",
+        "title": "Submit Todos assignment",
+        "done": false
+      },
+      {
+        "id": "8c69",
+        "title": "Check homework",
+        "done": false
+      },
+      {
+        "id": "80d4",
+        "title": "Watch React Crash Course",
+        "done": false
+      }
+    ]
+  }

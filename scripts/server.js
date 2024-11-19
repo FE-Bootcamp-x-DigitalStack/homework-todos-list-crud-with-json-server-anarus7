@@ -16,7 +16,6 @@ const server = {
         if (!response.ok) {
             return null;
         }
-
         return await response.json();
     },
     async addTodo(todo) {

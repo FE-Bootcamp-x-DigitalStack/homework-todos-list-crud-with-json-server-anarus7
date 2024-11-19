@@ -1,10 +1,102 @@
-#todos-list {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
+body {
+    background-color: rgba(250, 215, 244, 0.107);
+    font-family: "Poppins", sans-serif;
 
+
+
+}
+
+
+    #todos-list li {
+        cursor: pointer;
+        background-color: rgb(232, 221, 244);
+        border-bottom: 1px solid #ccc;
+        
+    }
+    
     li {
         display: inline-block;
         cursor: pointer;
+        background-color: rgb(194, 182, 207);
+        background-color: rgb(232, 221, 244);
+        border-bottom: 1px solid #ccc; 
     }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        background-color: rgb(240, 209, 199);
+        align-items: center;
+        padding-left: 40px;
+     }
+     
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 60px;
+
+    }
+    
+.delete-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff1a1a; 
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.delete-btn:active {
+    background-color: #cc0000; 
+}
+
+.delete-btn:focus {
+    outline: none; 
+}
+
+h1{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(240, 209, 199);
+    border-style: inset;    
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#add-todo-form {
+    border-style: inset;
+    padding: 10px 20px;  
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px; 
+}
+
+
+#new-todo-title{
+    padding: 10px 20px;
+    border-style: inset; 
+    border-radius: 12px;
+
+
 }
